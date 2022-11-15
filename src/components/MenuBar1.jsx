@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const MenuBar1 = () => {
   return (
     <div className='z-[500]'>
-        <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center gap-10 max-sm:gap-3 w-full fixed top-10 mt-14'>
-         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='sm:w-15 max-sm:mr-10 max-sm:ml-5 sm:mr-10 md:w-15 md:mr-10' />
-         <Navbar.Collapse id="responsive-navbar-nav" className='flex flex-row justify-between items-center gap-10 w-full ml-20 mt-3'>
+        <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center gap-5 max-sm:gap-3 md:gap-3 w-full fixed top-10 mt-14'>
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='sm:w-15 max-sm:mr-10 max-sm:ml-3 sm:mr-10 md:w-15 md:mr-10 md:ml-5 mt-5' />
+         <Navbar.Collapse id="responsive-navbar-nav" className='flex flex-row justify-between items-center gap-5 w-full ml-20 mt-3'>
             <Nav className="text-md font-normal text-black w-full">
                 <Link to={'#'} className='p-2 w-100'>
                     Restaurant

@@ -5,7 +5,7 @@ import MenuBar1 from '../components/MenuBar1';
 
 const Places = () => {
   return (
-    <div className=''>
+    <div>
         <div id='navbar'>
             <MenuBar />
         </div>
@@ -14,7 +14,7 @@ const Places = () => {
         </div>        
         <div id='second-section' className='mt-60 w-full'>
           <div id='title' className='text-center text-black-800 text-3xl max-sm:text-2xl font-bold mt-6 max-sm:mt-2'>
-            <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 ml-5 mr-5'>
+            <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 lg:ml-5 lg:mr-5 md:ml-12 md:mr-12 max-sm:ml-6'>
               <div>
                 <img src='./img/image_001.png' alt='img-section-two' />
               </div>

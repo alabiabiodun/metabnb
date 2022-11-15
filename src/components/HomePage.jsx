@@ -8,8 +8,8 @@ export const HomePage = () => {
         <MenuBar />
       </div>
       <div id='container'>
-        <div id='first_section' className='grid lg:grid-row-4 lg:grid-cols-4 lg:gap-4 lg:m-15 md:grid-row-4 md:grid-cols-4 md:p-12 md:gap-2 sm:grid-row-2 sm:grid-cols-2 sm:gap-4 sm:p-12 max-sm:grid-row-2 max-sm:grid-cols-2 max-sm:gap-4 max-sm:p-12'>
-          <div id='left_first_section' className='lg:row-span-4 lg:col-span-2 lg:ml-10 md:row-span-4 md:col-span-2 md:ml-10 sm:row-span-2 sm:col-span-1 sm:ml-10 max-sm:row-span-2 max-sm:col-span-1 max-sm:ml-5'>
+        <div id='first_section' className='grid lg:grid-row-4 lg:grid-cols-4 lg:gap-4 lg:m-15 md:grid-row-4 md:grid-cols-4 md:p-12 md:gap-0 sm:grid-row-2 sm:grid-cols-2 sm:gap-4 sm:p-12 max-sm:grid-row-2 max-sm:grid-cols-2 max-sm:gap-4 max-sm:p-12'>
+          <div id='left_first_section' className='lg:row-span-4 lg:col-span-2 lg:ml-10 md:row-span-4 md:col-span-2 md:ml-3 sm:row-span-2 sm:col-span-1 sm:ml-10 max-sm:row-span-2 max-sm:col-span-1 max-sm:ml-2'>
             <p className='lg:text-4xl md:text-3xl sm:text-2xl max-sm:text-2xl leading-relaxed mt-2'>
               Rent a 
               <small id='text-color' className='lg:text-4xl md:text-3xl sm:text-2xl max-sm:text-2xl'> Place </small>
@@ -26,7 +26,7 @@ export const HomePage = () => {
               <button id='button-color' className='lg:w-40 md:w-40 sm:w-20 max-sm:w-25 p-2 "bg-gradient-to-r from-red-160 via-green-34 to-blue-121 border border-1 border-pink-800 text-white rounded-r-md'>Search</button>
             </div>
           </div>
-          <div id='right_first_section' className='lg:row-span-4 lg:col-span-2 md:row-span-4 md:col-span-2 sm:row-span-2 sm:col-span-1 max-sm:row-span-2 max-sm:col-span-1 max-sm:mt-10 max-sm:ml-4 w-full relative z-100'>
+          <div id='right_first_section' className='lg:row-span-4 lg:col-span-2 md:row-span-4 md:col-span-2 sm:row-span-2 sm:col-span-1 max-sm:row-span-2 max-sm:col-span-1 max-sm:mt-10 max-sm:ml-1 md:mr-8 w-full relative z-100'>
             <div className='absolute lg:left-80 md:left-60 sm:left-40 max-sm:left-20 w-100'>
               <img src='./img/image_3.png' alt='image_logo' className='lg:w-40 md:w-40 sm:w-20 max-sm:w-20 p-1'/>
               <img src='./img/image_5.png' alt='image_logo' className='lg:w-40 md:w-40 sm:w-20 max-sm:w-20 p-1'/>            
