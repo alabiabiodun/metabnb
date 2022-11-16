@@ -106,7 +106,7 @@ export const HomePage = () => {
               <img src='./img/image_21.png' width='100' alt='img-last-section' className='mt-3'/>
             </div>
           </div>
-          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 text-sm ml-20 max-sm:ml-0 max-sm:mt-5 max-sm:text-center'>
+          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 text-sm ml-20 max-sm:ml-0 max-sm:mt-5 max-sm:text-xs'>
             <div className='text-md font-bold'><h4>Community</h4></div>
             <div className='text-md font-bold'><h4>Places</h4></div>
             <div className='text-md font-bold'><h4>About us</h4></div>
