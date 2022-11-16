@@ -44,7 +44,7 @@ export const MenuBar = () => {
      </Navbar>
      <div>
         {displayForm && (
-          <div className='mt-14 absolute p-3 top-35 left-80 w-2/5 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
+          <div className='mt-14 absolute p-3 top-35 lg:left-80 lg:w-2/5 sm:left-40 sm:w-3/5 max-sm:left-15 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
             <div className='pl-4 pr-4 font-bold text-md flex flex-row justify-between items-center gap-2'>
               <div>
                 Connect Wallet
