@@ -15,29 +15,29 @@ export const MenuBar = () => {
 
   return (
     <div className='relative w-full z-[1000]'>
-      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center gap-20 max-sm:gap-3 w-full fixed top-0 left-0 right-0 z-[1000]'>
-        <Navbar.Brand href="" className='lg:ml-20 md:ml-10 sm:ml-10 max-sm:ml-3 p-2 mt-2'>
-              <img src='./img/Meta_2.png' alt='logo'/>
+      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center lg:gap-20 w-full fixed top-0 left-0 right-0 z-[1000] ml-12 md:ml-0 md:gap-0 md:justify-between  sm:ml-5 max-sm:ml-2'>
+        <Navbar.Brand href="" className='ml-2 p-2 max-sm:w-40 max-sm:ml-0'>
+            <img src='./img/Meta_2.png' alt='logo'/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='sm:w-15 max-sm:mr-16 max-sm:ml-2 sm:mr-10 md:w-15 md:mr-10 border' />
-        <Navbar.Collapse id="responsive-navbar-nav" className='flex flex-row justify-between items-center gap-10 w-full mt-2'>
-            <Nav className="text-lg font-normal text-black w-full flex flex-row justify-between items-center gap-4">
-              <Link to={'/'} className='w-25 text-center'>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='md:mr-60 max-sm:mr-20 border sm:mr-10 border-none' />
+        <Navbar.Collapse id="responsive-navbar-nav" className=''>
+            <Nav className="text-lg font-normal text-black w-full">
+              <Link to={'/'} className='w-25 p-2'>
                 Home
               </Link>
-              <Link to={'/place-to-stay'} className='w-40 text-center'>
+              <Link to={'/place-to-stay'} className='w-60 p-2'>
                 Place to Stay
               </Link>
-              <Link to={'#'} className='w-40 text-center'>
+              <Link to={'#'} className='w-40 p-2'>
                 NFTs
               </Link>
-              <Link to={'#'} className='w-40 text-center'>
+              <Link to={'#'} className='w-40 p-2'>
                 Community
               </Link>                            
             </Nav>
-            <Nav className='w-full ml-20'>
+            <Nav className='w-full lg:ml-20 md:ml-0 max-sm:ml-0 p-2 max-sm:p-0'>
               <Link to={'#'} className='w-40 text-center'>
-                  <Button id='button-color' className='text-white p-2' onClick={display}>
+                  <Button id='button-color' className='text-white p-2 max-sm:p-0' onClick={display}>
                       Connect wallet       
                   </Button>
               </Link> 

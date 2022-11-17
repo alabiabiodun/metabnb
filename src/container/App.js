@@ -4,13 +4,14 @@ import Places from '../components/Places';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-const App = () => {
+const App = () => { 
+
   return (
     <Router>
         <Routes>
             <Route path="/" element={<HomePage />} exact/>
             <Route path="/place-to-stay" element={<Places />} exact/>                
-        </Routes>    
+        </Routes>         
     </Router>           
 )
 }

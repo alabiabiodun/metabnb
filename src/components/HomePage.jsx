@@ -37,7 +37,7 @@ export const HomePage = () => {
             </div>
           </div>
         </div>
-        <div id='footer-first-section' className='flex flex-row justify-around items-center gap-2 mt-1 w-full h-20'>
+        <div id='footer-first-section' className='flex flex-row justify-around items-center gap-2 mt-0 w-full h-20'>
           <div className='w-40'>
             <img src='./img/image_7.png' width='200' alt='image_footer' />
           </div>
@@ -48,13 +48,13 @@ export const HomePage = () => {
             <img src='./img/image_9.png' width='200' alt='image_footer' />          
           </div>
         </div>
-        <div id='second-section'>
+        <div id='second-section' className='m-1'>
           <div id='title' className='text-center text-black-800 text-3xl max-sm:text-2xl font-bold mt-6 max-sm:mt-2'>
-            <p>
+            <p className='p-1'>
               Inspiration for your next adventure
             </p>
-            <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 ml-5 mr-5'>
-              <div>
+            <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-3 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 lg:ml-5 lg:mr-5'>
+              <div className=''>
                 <img src='./img/image_10.png' alt='img-section-two' />
               </div>
               <div>
