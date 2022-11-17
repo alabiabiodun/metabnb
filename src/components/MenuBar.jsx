@@ -15,32 +15,34 @@ export const MenuBar = () => {
 
   return (
     <div className='relative w-full z-[1000]'>
-      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center gap-10 max-sm:gap-3 w-full fixed top-0 left-0 right-0 z-[1000]'>
-        <Navbar.Brand href="" className='lg:ml-20 md:ml-10 sm:ml-10 max-sm:ml-3'>
+      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row justify-between items-center gap-20 max-sm:gap-3 w-full fixed top-0 left-0 right-0 z-[1000]'>
+        <Navbar.Brand href="" className='lg:ml-20 md:ml-10 sm:ml-10 max-sm:ml-3 p-2 mt-2'>
               <img src='./img/Meta_2.png' alt='logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='sm:w-15 max-sm:mr-16 max-sm:ml-2 sm:mr-10 md:w-15 md:mr-10 border' />
-        <Navbar.Collapse id="responsive-navbar-nav" className='flex flex-row justify-between items-center gap-10 w-full ml-20 mt-3'>
-            <Nav className="text-lg font-normal text-black w-full">
-              <Link to={'/'} className='p-2 w-100'>
+        <Navbar.Collapse id="responsive-navbar-nav" className='flex flex-row justify-between items-center gap-10 w-full mt-2'>
+            <Nav className="text-lg font-normal text-black w-full flex flex-row justify-between items-center gap-4">
+              <Link to={'/'} className='w-25 text-center'>
                 Home
               </Link>
-              <Link to={'/place-to-stay'} className='p-2 w-100'>
+              <Link to={'/place-to-stay'} className='w-40 text-center'>
                 Place to Stay
               </Link>
-              <Link to={'#'} className='p-2 w-100'>
+              <Link to={'#'} className='w-40 text-center'>
                 NFTs
               </Link>
-              <Link to={'#'} className='p-2 w-100'>
+              <Link to={'#'} className='w-40 text-center'>
                 Community
-              </Link>
-              <Link to={'#'} className='p-2 w-100 ml-10'>
-                <Button id='button-color' className='text-white' onClick={display}>
-                    Connect wallet       
-                </Button>
-              </Link>               
-            </Nav>        
-        </Navbar.Collapse>     
+              </Link>                            
+            </Nav>
+            <Nav className='w-full ml-20'>
+              <Link to={'#'} className='w-40 text-center'>
+                  <Button id='button-color' className='text-white p-2' onClick={display}>
+                      Connect wallet       
+                  </Button>
+              </Link> 
+            </Nav>                    
+        </Navbar.Collapse>            
      </Navbar>
      <div>
         {displayForm && (

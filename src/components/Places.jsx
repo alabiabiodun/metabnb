@@ -1,18 +1,52 @@
 import React from 'react'
 //import Button from 'react-bootstrap/Button';
 import { MenuBar } from '../components/MenuBar'
-import MenuBar1 from '../components/MenuBar1';
+import { Link } from 'react-router-dom';
 
 const Places = () => {
   return (
-    <div>
-        <div id='navbar'>
-            <MenuBar />
-        </div>
-        <div id='navbar1'>
-            <MenuBar1 />        
+    <div>        
+        <MenuBar />        
+        <div id='navbar1' className='mt-40'>            
+            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-4 pl-10 pr-10 text-md font-normal text-black w-full sm:flex sm:flex-col sm:gap-4 max-sm:flex max-sm:flex-col max-sm:gap-4">
+                <Link to={'#'} className='w-100'>
+                    Restaurant
+                </Link>
+                <Link to={'#'} className='w-100'>
+                    Cottage
+                </Link>
+                <Link to={'#'} className='w-100'>
+                    Castle
+                </Link>
+                <Link to={'#'} className='w-100' >
+                    fastest city
+                </Link>            
+                <Link to={'#'} className='w-100'>
+                    beach
+                </Link>
+                <Link to={'#'} className='w-100'>
+                    Carbins
+                </Link>
+                <Link to={'#'} className='w-100'>
+                    Off-grid
+                </Link>
+                <Link to={'#'} className='w-100'>
+                    Farms
+                </Link>
+                <Link to={'#'} className='mr-4 lg:w-full max-sm:w-100 md:w-100 sm:w-100'>
+                    <button className='text-black text-sm flex flex-row justify-between items-center p-2 bg-white bg-gray-800 border-gray-800 lg:w-100 md:w-50 sm:w-40 max-sm:w-40 border border-1 rounded-md'>
+                        <div>
+                            Location 
+                        </div>
+                        <div>
+                            <img src='./img/location-logo.png' alt='location-logo' />
+                        </div>                                     
+                    </button>                        
+                </Link>               
+          </div>     
+                   
         </div>        
-        <div id='second-section' className='mt-10 w-full'>
+        <div id='second-section' className='mt-3 w-full'>
           <div id='title' className='text-center text-black-800 text-3xl max-sm:text-2xl font-bold mt-6 max-sm:mt-2'>
             <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 lg:ml-5 lg:mr-5 md:ml-12 md:mr-12 max-sm:ml-6'>
               <div>
@@ -66,7 +100,7 @@ const Places = () => {
             </div>
           </div>
         </div>
-        <div id='last-section' className='flex flex-row justify-around items-center gap-5 max-sm:gap-1 mt-4'>
+        <div id='last-section' className='flex flex-row justify-around items-center gap-5 max-sm:gap-1 mt-20'>
           <div id='left-last-section' className='ml-10 max-sm:ml-2 mt-10 flex flex-col justify-center items-between gap-20 w-80'>
             <div>
               <img src='./img/image_19.png' width='170' alt='img-last-section'/>
@@ -94,10 +128,7 @@ const Places = () => {
             <div><p>Contact us</p></div>
           </div>
         </div>        
-    </div>
-    
-        
-    
+    </div>   
   )
 }
 
