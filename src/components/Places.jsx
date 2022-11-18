@@ -8,7 +8,7 @@ const Places = () => {
     <div>        
         <MenuBar />        
         <div id='navbar1' className='mt-40'>            
-            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-4 pl-10 pr-10 text-md font-normal text-black w-full sm:flex sm:flex-col sm:gap-4 max-sm:flex max-sm:flex-col max-sm:gap-4">
+            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-4 pl-10 pr-10 text-md font-normal text-black w-full sm:flex sm:flex-col sm:gap-4 xs:flex xs:flex-col xs:gap-4">
                 <Link to={'#'} className='w-100'>
                     Restaurant
                 </Link>
@@ -33,8 +33,8 @@ const Places = () => {
                 <Link to={'#'} className='w-100'>
                     Farms
                 </Link>
-                <Link to={'#'} className='mr-4 lg:w-full max-sm:w-100 md:w-100 sm:w-100'>
-                    <button className='text-black text-sm flex flex-row justify-between items-center p-2 bg-white bg-gray-800 border-gray-800 lg:w-100 md:w-50 sm:w-40 max-sm:w-40 border border-1 rounded-md'>
+                <Link to={'#'} className='mr-4 lg:w-full xs:w-100 md:w-100 sm:w-100'>
+                    <button className='text-black text-sm flex flex-row justify-between items-center p-2 bg-white bg-gray-800 border-gray-800 lg:w-100 md:w-50 sm:w-40 xs:w-40 border border-1 rounded-md'>
                         <div>
                             Location 
                         </div>
@@ -43,12 +43,10 @@ const Places = () => {
                         </div>                                     
                     </button>                        
                 </Link>               
-          </div>     
-                   
+          </div>                   
         </div>        
-        <div id='second-section' className='mt-3 w-full'>
-          <div id='title' className='text-center text-black-800 text-3xl max-sm:text-2xl font-bold mt-6 max-sm:mt-2'>
-            <div className='lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid sm:grid-row-8 sm:grid-cols-1 sm:gap-2 max-sm:grid max-sm:grid-row-8 max-sm:grid-cols-1 max-sm:gap-2 pt-2 lg:ml-5 lg:mr-5 md:ml-12 md:mr-12 max-sm:ml-6'>
+        <div id='second-section' className='mt-10 w-full'>          
+            <div className='grid lg:grid lg:grid-row-2 lg:grid-cols-4 lg:gap-2 md:grid-row-4 md:grid-cols-2 md:gap-2 sm:grid-row-8 sm:grid-cols-1 sm:gap-2 xs:grid-row-8 xs:grid-cols-1 xs:gap-2 justify-items-center items-center'>
               <div>
                 <img src='./img/image_001.png' alt='img-section-two' />
               </div>
@@ -97,11 +95,10 @@ const Places = () => {
               <div>
                 <img src='./img/image_016.png' alt='img-section-two' />
               </div>
-            </div>
-          </div>
+            </div>          
         </div>
-        <div id='last-section' className='flex flex-row justify-around items-center gap-5 max-sm:gap-1 mt-20'>
-          <div id='left-last-section' className='ml-10 max-sm:ml-2 mt-10 flex flex-col justify-center items-between gap-20 w-80'>
+        <div id='last-section' className='flex flex-row justify-around items-center gap-5 xs:gap-1 mt-20'>
+          <div id='left-last-section' className='ml-10 xs:ml-2 mt-10 flex flex-col justify-center items-between gap-20 w-80'>
             <div>
               <img src='./img/image_19.png' width='170' alt='img-last-section'/>
             </div>
@@ -110,7 +107,7 @@ const Places = () => {
               <img src='./img/image_21.png' width='100' alt='img-last-section' className='mt-3'/>
             </div>
           </div>
-          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 text-sm ml-20 max-sm:ml-0 max-sm:mt-5 max-sm:text-center'>
+          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 text-sm ml-20 xs:ml-0 xs:mt-5 xs:text-center'>
             <div className='text-md font-bold'><h4>Community</h4></div>
             <div className='text-md font-bold'><h4>Places</h4></div>
             <div className='text-md font-bold'><h4>About us</h4></div>
