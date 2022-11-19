@@ -48,7 +48,7 @@ export const HomePage = () => {
             <img src='./img/image_9.png' width='200' alt='image_footer' />          
           </div>
         </div>
-        <div id='second-section' className='mt-10'>
+        <div id='second-section' className='mt-10 w-full'>
           <div id='title' className='text-center text-black-800 text-3xl xs:text-2xl font-bold  xs:mt-2'>
             <p className='p-2'>
               Inspiration for your next adventure

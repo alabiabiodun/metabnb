@@ -16,7 +16,7 @@ export const MenuBar = () => {
 
   return (
     <div className='relative w-full z-[1000]'>
-      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row lg:justify-between lg:w-full md:justify-between md:w-[100%] lg:pl-0 lg:pr-0 md:pl-5 md:pr-60 sm:justify-between sm:w-[100%] sm:pl-10 sm:pr-20 xs:justify-between xs:w-[100%] xs:pl-10 xs:pr-20 lg:gap-20 w-full fixed top-0 left-0 right-0 z-[1000]'>
+      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row lg:justify-between lg:w-full md:justify-between md:w-[100%] lg:pl-0 lg:pr-0 md:pl-5 md:pr-20 sm:justify-between sm:w-[100%] sm:pl-10 sm:pr-20 xs:justify-between xs:w-[100%] xs:pl-10 xs:pr-10 lg:gap-20 w-full fixed top-0 left-0 right-0 z-[1000]'>
         <Navbar.Brand href="" className='p-2 lg:w-full md:w-50 sm:w-40 xs:w-40'>
             <img src='./img/Meta_2.png' alt='logo'/>
         </Navbar.Brand>
