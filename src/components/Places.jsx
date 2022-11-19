@@ -97,17 +97,17 @@ const Places = () => {
               </div>
             </div>          
         </div>
-        <div id='last-section' className='flex flex-row justify-around items-center gap-5 xs:gap-1 mt-20'>
-          <div id='left-last-section' className='ml-10 xs:ml-2 mt-10 flex flex-col justify-center items-between gap-20 w-80'>
+        <div id='last-section' className='flex lg:flex-row lg:justify-around lg:items-center md:flex-row md:justify-around md:items-center gap-5 xs:flex-col xs:justify-center xs:items:start xs:gap-1 mt-5'>
+          <div id='left-last-section' className='ml-10 xs:ml-2 mt-8 flex flex-col justify-center items-between gap-20 w-80'>
             <div>
-              <img src='./img/image_19.png' width='170' alt='img-last-section'/>
+              <img src='./img/image_19.png' width='160' alt='img-last-section'/>
             </div>
             <div>
               <img src='./img/image_20.png' width='100' alt='img-last-section'/>
               <img src='./img/image_21.png' width='100' alt='img-last-section' className='mt-3'/>
             </div>
           </div>
-          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 text-sm ml-20 xs:ml-0 xs:mt-5 xs:text-center'>
+          <div id='right-last-section' className='grid grid-row-5 grid-cols-3 gap-2 text-white w-100 lg:text-[1rem] lg:leading-8 lg:ml-20 lg:mt-10 md:text-[0.9rem] md:leading-8 md:ml-20 md:mt-10 xs:ml-0 xs:mt-5 xs:text-[0.8rem] xs:ml-3'>
             <div className='text-md font-bold'><h4>Community</h4></div>
             <div className='text-md font-bold'><h4>Places</h4></div>
             <div className='text-md font-bold'><h4>About us</h4></div>
@@ -124,7 +124,7 @@ const Places = () => {
             <div><p>Learn more</p></div>
             <div><p>Contact us</p></div>
           </div>
-        </div>        
+        </div> 
     </div>   
   )
 }

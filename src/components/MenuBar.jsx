@@ -36,9 +36,9 @@ export const MenuBar = () => {
                 Community
               </Link>                            
             </Nav>
-            <Nav className='w-full lg:ml-20 md:ml-0 xs:ml-0 p-2 xs:p-0'>
+            <Nav className='w-full lg:ml-20 md:ml-0 sm:ml-0 xs:ml-0 pt-2 xs:p-0'>
               <Link to={'#'} className='w-40 text-center'>
-                  <Button id='button-color' className='text-white p-2 max-sm:p-0' onClick={display}>
+                  <Button id='button-color' className='text-white p-2 xs:p-0' onClick={display}>
                       Connect wallet       
                   </Button>
               </Link> 
@@ -47,7 +47,7 @@ export const MenuBar = () => {
      </Navbar>
      <div>
         {displayForm && (
-          <div className='mt-14 absolute top-35 lg:left-80 lg:w-2/5 sm:left-40 sm:w-3/5 max-sm:left-15 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
+          <div className='mt-14 absolute top-35 lg:left-80 lg:w-2/5 sm:left-40 sm:w-3/5 xs:left-15 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
             <div className='pl-4 pr-4 font-bold text-md flex flex-row justify-between items-center gap-2'>
               <div className='p-2'>
                 Connect Wallet

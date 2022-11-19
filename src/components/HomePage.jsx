@@ -92,7 +92,7 @@ export const HomePage = () => {
             </p>
             <button id='button1-color' className='w-30 rounded-md p-2 text-md sm:ml-3 xs:ml-5'>Learn more</button>
           </div>
-          <div id='right-third-section' className='w-50 flex flex-row justify-center xs:mt-10'>
+          <div id='right-third-section' className='lg:w-50 md:w-50 sm:w-50 flex flex-row justify-center xs:mt-10 xs:w-[100%]'>
             <img src='./img/image_18.png' alt='img-section-two' />
           </div>        
         </div>
@@ -124,8 +124,7 @@ export const HomePage = () => {
             <div><p>Contact us</p></div>
           </div>
         </div>         
-      </div>
-      
+      </div>      
     </div>    
   )
 }
