@@ -16,13 +16,13 @@ export const MenuBar = () => {
 
   return (
     <div className='relative w-full z-[1000]'>
-      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row lg:justify-between lg:w-full md:justify-between md:w-[100%] lg:pl-0 lg:pr-0 md:pl-5 md:pr-10 sm:justify-between sm:w-[100%] sm:pl-10 sm:pr-20 xs:justify-between xs:w-[100%] xs:pl-10 xs:pr-10 lg:gap-20 w-full fixed top-0 left-0 right-0 z-[1000]'>
+      <Navbar id='navigation-bar-menu' collapseOnSelect expand="lg" className='flex flex-row lg:justify-between lg:w-full md:justify-between md:w-[100%] lg:pl-0 lg:pr-0 md:pl-5 md:pr-10 sm:justify-between sm:w-[100%] sm:pl-10 sm:pr-20 xs:justify-between xs:w-[100%] xs:pl-10 xs:pr-10 gap-0 w-full fixed top-0 left-0 right-0 z-[1000]'>
         <Navbar.Brand href="" className='p-2 lg:w-full md:w-50 sm:w-40 xs:w-40'>
             <img src='./img/Meta_2.png' alt='logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='w-12 h-12 outline-none'><img src={hamburger} alt='toggle-logo' /></Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav" className=''>
-            <Nav className="text-lg font-normal text-black w-full">
+        <Navbar.Collapse id="responsive-navbar-nav" className='mr-20'>
+            <Nav className="text-lg font-normal text-black w-full mr-20">
               <Link to={'/'} className='w-25 p-2'>
                 Home
               </Link>
@@ -36,7 +36,7 @@ export const MenuBar = () => {
                 Community
               </Link>                            
             </Nav>
-            <Nav className='w-full lg:ml-20 md:ml-0 sm:ml-0 xs:ml-0 pt-2 xs:p-0'>
+            <Nav className='w-full lg:mr-7 md:mr-0 sm:mr-0 xs:mr-0 xs:p-0'>
               <Link to={'#'} className='w-40 text-center'>
                   <Button id='button-color' className='text-white p-2 xs:p-0' onClick={display}>
                       Connect wallet       
@@ -47,13 +47,13 @@ export const MenuBar = () => {
      </Navbar>
      <div>
         {displayForm && (
-          <div className='mt-14 absolute top-35 lg:left-80 lg:w-2/5 sm:left-40 sm:w-3/5 xs:left-15 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
-            <div className='pl-4 pr-4 font-bold text-md flex flex-row justify-between items-center gap-2'>
+          <div className='mt-14 absolute top-35 lg:left-80 lg:w-2/5 sm:left-40 sm:w-3/5 xs:left-20 bg-white border border-1 border-gray-500 rounded-md z-[500]'>
+            <div className='mt-1 pl-4 pr-4 font-bold text-md flex flex-row justify-between items-center gap-2'>
               <div className='p-2'>
                 Connect Wallet
               </div>
               <div className='pl-4 text-lg font-normal'>
-                <button id='button-connect' type='button' className='w-10 h-10 hover:bg-gray-100 hover:border hover:border-1 hover:border-gray-100 rounded-full text-gray-500 pointer' onClick={()=>setDisplayForm(false)}>
+                <button id='button-connect' type='button' className='w-10 h-10 hover:bg-gray-100 hover:border hover:border-1 hover:border-gray-100 rounded-xl text-gray-500 pointer' onClick={()=>setDisplayForm(false)}>
                     x
                 </button>                
               </div>              
