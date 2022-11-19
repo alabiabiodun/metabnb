@@ -81,10 +81,10 @@ export const HomePage = () => {
             </div>
           </div>
         </div>
-        <div id='third-section' className='flex lg:flex-row lg:justify-center lg:items-center md:flex-row md:justify-center md:items-center xs:flex-col xs:justify-center xs:items-center gap-3 mt-3 pb-10 pt-5'>
-          <div id='left-third-section flex flex-col items-start justify-around'>
-            <h5 className='xs:text-3xl md:text-4xl lg:text-4xl text-white font-bold sm:ml-3 xs:ml-5'>Metabnb NFTs</h5>
-            <p className='lg:text-lg xs:text-sm sm:text-sm md:text-md text-white font-bold pt-6 pb-5 sm:ml-3 xs:ml-5'>
+        <div id='third-section' className='flex lg:flex-row lg:justify-center lg:items-center md:flex-row md:justify-center md:items-center sm:flex-row sm:justify-center sm:items-center xs:flex-col xs:justify-center xs:items-center gap-3 mt-5 pb-10 xs:pt-5 lg:p-20'>
+          <div id='left-third-section flex flex-col items-start justify-around w-[100%]'>
+            <h5 className='xs:text-3xl md:text-3xl sm:text-3xl lg:text-4xl text-white font-bold sm:ml-3 xs:ml-5'>Metabnb NFTs</h5>
+            <p className='lg:text-lg xs:text-sm sm:text-sm md:text-md text-white font-bold pt-6 pb-5 sm:ml-3 xs:ml-5 w-[100%]'>
               Discover our NFT gift cards collection. Loyal<br/>customers 
               gets amazing gift cards which are<br/>traded as NFTs. These 
               NFTs gives our customer<br/>access to loads of our exclusive 
@@ -92,7 +92,7 @@ export const HomePage = () => {
             </p>
             <button id='button1-color' className='w-30 rounded-md p-2 text-md sm:ml-3 xs:ml-5'>Learn more</button>
           </div>
-          <div id='right-third-section' className='lg:w-50 md:w-50 sm:w-50 flex flex-row justify-center xs:mt-10 xs:w-[100%]'>
+          <div id='right-third-section' className='lg:w-[100%] md:w-50 sm:w-50 flex flex-row lg:justify-end md:justify-end sm:justify-end xs:mt-10 xs:w-[100%]'>
             <img src='./img/image_18.png' alt='img-section-two' />
           </div>        
         </div>
