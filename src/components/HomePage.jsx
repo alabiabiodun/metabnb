@@ -22,7 +22,7 @@ export const HomePage = () => {
               to reality at your comfort zone
             </p>
             <div className='mt-4 flex flex-row xs:flex-none'>
-              <input id='search_location' name="search_location" type="text" placeholder="Search for location" className='lg:w-80 md:w-60 sm:w-30 xs:w-25 p-2 border border-1 border-gray-800 text-gray-500 rounded-l-md outline outline-0'/>
+              <input id='search_location' name="search_location" type="text" placeholder="Search for location" className='lg:w-80 md:w-60 sm:w-30 xs:w-[80%] p-2 border border-1 border-gray-800 text-gray-500 rounded-l-md outline outline-0'/>
               <button id='button-color' className='lg:w-40 md:w-40 sm:w-20 xs:w-25 p-2 "bg-gradient-to-r from-red-160 via-green-34 to-blue-121 border border-1 border-pink-800 text-white rounded-r-md'>Search</button>
             </div>
           </div>
