@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+*{
+  margin: 0;
+  font-family: 'Red Rose', cursive;
+}
 
 body,html {
-  margin: 0;
-  font-family: 'Red Rose', cursive;  
   overflow-x: hidden;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 }
